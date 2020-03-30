@@ -1,0 +1,41 @@
+:root {
+  --fontFamilyAeroport: 'Aeroport-light', -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol', sans-serif;
+  --fontFamilyGraphik: 'GraphikLight', -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol', sans-serif;
+
+  /* Desktop text styles */
+  --title80-80: 200 80px/80px var(--fontFamilyAeroport);
+  --title40-40: 200 40px/40px var(--fontFamilyAeroport);
+  --title40-48: 200 40px/48px var(--fontFamilyAeroport);
+  --caption20-24: 200 20px/24px var(--fontFamilyAeroport);
+  --text24-32: 200 24px/32px var(--fontFamilyGraphik);
+  /* Mobile text styles */
+  --titleMobile40-40: 200 40px/40px var(--fontFamilyAeroport);
+  --titleMobile28-32: 200 28px/32px var(--fontFamilyAeroport);
+  --titleMobile22-28: 200 22px/28px var(--fontFamilyAeroport);
+  --captionMobile20-24: 200 20px/24px var(--fontFamilyAeroport);
+  --textMobile18-24: 200 18px/24px var(--fontFamilyGraphik);
+
+
+  /* Colors */
+  --darkPrimary: #0e0f0f;
+  --darkSecondary: #1d1e21;
+
+  --greyPrimary: #333437;
+
+
+  --beigePrimary: #e0d7ce;
+  --beigeSecondary: #a38e7c;
+  --redPrimary: #ff4f05;
+  --redSecondary: #e0421b;
+  font-family: 'Aeroport-light', -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol', sans-serif;
+  font-family: 'Aeroport-light', -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol', sans-serif;
+  font-family: var(--fontFamilyAeroport);
+}

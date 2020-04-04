@@ -1,22 +1,20 @@
-<template>
-  <div class="progress-bar">
-
-    <div v-for="(item, index) in items" :key="item.id"
-         :class="['progress-bar__items', {
-          'progress-bar__items--active': index < status.activeSlide,
-          'progress-bar__items--paused': index === status.pausedSlide,
-         }]"
-    >
-      <div v-if="startAnimate(index)" :ref="'animateline_' + index" class="animate-line" style="animation-duration: 5000ms;"></div>
-    </div>
-
-    <div class="progress-bar__pointer-line"></div>
-  </div>
+<template lang="pug">
+  .progress-bar
+    div(
+      v-for='(item, index) in items'
+      :key='item.id'
+      :class="['progress-bar__items', {\
+    'progress-bar__items--active': index < status.activeSlide,\
+    'progress-bar__items--paused': index === status.pausedSlide,\
+    }]"
+      @click="goTo(index)")
+      .animate-line(v-if='startAnimate(index)' :ref="'animateline_' + index" style='animation-duration: 5000ms;')
+    .progress-bar__pointer-line
 </template>
 
 <script>
 export default {
-  name: "CasesProgressBar",
+  name: 'StoriesProgressBar',
   props: {
     items: {
       type: Array,
@@ -28,59 +26,44 @@ export default {
     }
   },
   computed: {
-    startAnimate (){
-
-
+    startAnimate () {
       return index => {
-        console.log(1);
 
-        if(index === this.status.activeSlide){
-
-
+        if (index === this.status.activeSlide) {
 
           this.callbackStartAnimate(index)
-
           return true
-
-
-
-
-
-
-
 
         } else {
           return false
         }
 
-        //return `${salut} ${this.firstName} ${this.lastName}`;
       }
-
-
-
-
     }
   },
   methods: {
-    callbackStartAnimate (index){
+    goTo (index) {
+      alert(index)
+      this.$emit('go-to', index)
+    },
+    callbackStartAnimate (index) {
 
       let vm = this
 
       setTimeout(function () {
-        let item = vm.$refs['animateline_' + index];
+        let item = vm.$refs['animateline_' + index]
 
-        if(typeof item == 'undefined') return
+        if (typeof item == 'undefined') return
 
-        if(typeof item[0] == 'undefined') return
-
-        console.log(typeof item);
-        console.log(item);
+        if (typeof item[0] == 'undefined') return
 
         function animationEndCallback (e) {
-          item[0].removeEventListener('animationend', animationEndCallback);
-          vm.$emit('goNext')
+          item[0].removeEventListener('animationend', animationEndCallback)
+          vm.$emit('go-next')
         }
-        item[0].addEventListener('animationend', animationEndCallback);
+
+        item[0].addEventListener('animationend', animationEndCallback)
+
       }, 10)
 
     }

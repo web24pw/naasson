@@ -1,14 +1,13 @@
-<template>
-  <div class="_3IeQK">
-    <svg width="30px" height="30px" class="X_xqR">
-      <use xlink:href="#icon-SliderAmountIcon"></use>
-    </svg>
-    <span class="_3NTCg">{{ countItems }}</span></div>
+<template lang="pug">
+  ._3IeQK
+    svg.X_xqR(width='30px' height='30px')
+      use(xlink:href='#icon-SliderAmountIcon')
+    span._3NTCg {{ countItems }}
 </template>
 
 <script>
 export default {
-  name: "CasesBages",
+  name: "StoriesBages",
   props: {
     items: {
       type: Array,

@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Сайт Нити-Нити",
+    "type_project": "website",
+    "code": "nitiniti_website",
+    "items": [
+      {
+        "type": "image",
+        "order": 1,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 2,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 3,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 4,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 5,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 6,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 7,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Сайт Patriot G-Motion",
+    "type_project": "website",
+    "code": "patriot_website",
+    "items": [
+      {
+        "type": "image",
+        "order": 1,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 2,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 3,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      }
+    ]
+  },
+  {
+    "name": "GazpromNeft конструктор",
+    "type_project": "web_application",
+    "code": "gpnsm_const_app",
+    "items": [
+      {
+        "type": "image",
+        "order": 1,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 2,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      },
+      {
+        "type": "image",
+        "order": 3,
+        "image": {
+          "jpg": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-73e6398402ffa1c094b9954d63f7af41.jpg",
+          "webp": "https://breadhead.ru/_next/static/images/cover_oncohelp_desktop-12792d8a7ce68560a90fd71ae64b68b7.jpg.webp"
+        }
+      }
+    ]
+  }
+]

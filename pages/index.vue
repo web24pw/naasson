@@ -3,14 +3,17 @@
   <main>
 
     <div>
+
       <app-svg-sprite/>
+
       <app-header/>
 
-      <!--<app-cases/>-->
-      <!--<app-cases/>-->
-      <!--<app-cases/>-->
+      <app-cases/>
+
+<!--      <app-how-we-work/>-->
 
       <app-clients/>
+
       <app-footer/>
 
     </div>
@@ -21,20 +24,27 @@
 
 <script>
 import SVGSprite from '~/components/SVG/Sprite.vue'
-import Header from '~/components/layout/Header.vue'
-import Footer from '~/components/layout/Footer.vue'
+import Header from '~/components/Common/Header.vue'
+import Footer from '~/components/Common/Footer.vue'
 import Clients from '~/components/Clients.vue'
 import MainBanner from '~/components/MainBanner'
-import Cases from '~/components/Cases/index.vue'
+import Cases from '~/components/Cases/List/index.vue'
+import HowWeWork from '~/components/HowWeWork/index.vue'
 
 export default {
+  data () {
+    return {
+
+    }
+  },
   components: {
     'app-svg-sprite': SVGSprite,
     'app-header': Header,
     'app-footer': Footer,
     'app-clients': Clients,
     'app-main-banner': MainBanner,
-    'app-cases': Cases
+    'app-cases': Cases,
+    'app-how-we-work': HowWeWork,
   }
 }
 </script>
